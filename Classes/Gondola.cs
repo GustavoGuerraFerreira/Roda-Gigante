@@ -31,6 +31,10 @@ namespace Roda_Gigante.Classes
             {
                 return "(vazia)";
             }
+            else if (passageiros.Count == 1)
+            {
+                return "Somente " + passageiros[0].Nome;
+            }
             else
             {
                 string descricao = "";
